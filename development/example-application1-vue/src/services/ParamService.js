@@ -14,3 +14,4 @@ export async function setParam() {
   const response = await fetch("/api/params/PARAM1/AAAAAA", { method: "PUT" });
   return await response.json();
 }
+// first new-vue_commit

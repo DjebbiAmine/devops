@@ -13,6 +13,7 @@
 
 <script>
     export default {
+         // here chang in commit 2 -b new-view-chart
         name: 'Dashboard',
         props: ['numberOfUsers'],
         methods: {
