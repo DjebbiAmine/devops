@@ -17,8 +17,9 @@ export async function getDate() {
     const response = await fetch(`/api/getDate`);
     return await response.json();
 }
-
+  // here chang commit 1 -b new-view-chart
 export async function getEnv() {
     const response = await fetch(`/api/getEnv`);
     return await response.json();
 }
+// second new view commit

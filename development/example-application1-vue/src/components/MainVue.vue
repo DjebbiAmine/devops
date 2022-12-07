@@ -38,6 +38,7 @@ import { getAllParams } from "../services/ParamService";
 
 
 export default {
+  // here chang commit 1 -b new-view-chart
   name: 'MainVue',
   components: {
     Header,
