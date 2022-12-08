@@ -1,5 +1,6 @@
 const httpStatusCodes = {
   OK: 200,
+  //first commit in day9_api_fixes
   BAD_REQUEST: 400,
   UNATHORIZED : 401,
   NOT_FOUND: 404,
