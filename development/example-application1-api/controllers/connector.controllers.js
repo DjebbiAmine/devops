@@ -24,3 +24,4 @@ exports.getConnector = async (req, res, next) => {
     .then((data) => res.json(data))
     .catch((err) => next(err));
 };
+//some other hot fixes after day1-api-fixes

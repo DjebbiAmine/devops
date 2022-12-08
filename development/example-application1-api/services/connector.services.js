@@ -1,6 +1,6 @@
 const  logs  = require("../logging/log-service");
 const connectors = require("../connectors");
-
+// commit 2 day2-api-fixes
 exports.callConnector = async (connectorName) => {
   logs("[INFO]", "Invoking connector:", connectorName);
   const data = await connectors.callApi(connectorName);
