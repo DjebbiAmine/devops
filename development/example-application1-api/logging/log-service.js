@@ -1,6 +1,6 @@
 const fs = require("fs-extra");
 var util = require("util");
-
+// some changes after day2_api_fixes
 async function logs() {
   var datetime = new Date();
   var file = "./logs/log_core_" + datetime.toLocaleDateString("sv-SE") + ".log";  // only date part
