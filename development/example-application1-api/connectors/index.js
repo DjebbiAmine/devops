@@ -9,7 +9,8 @@ fs.readdirSync(__dirname)
   .forEach((file) => {
     connectors.push(require("./" + file));
   });
-
+  
+// first new-api commit
 function findConnector(connectorName) {
   const list = connectors.filter((con) => con.config.name === connectorName);
   if (list.length == 0)

@@ -8,5 +8,5 @@ const httpStatusCodes = {
   INTERNAL_SERVER: 500,
   UNAVAILABLE: 503,
 };
-
+//second commit in day1-api-fixes
 module.exports = httpStatusCodes;
