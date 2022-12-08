@@ -15,6 +15,7 @@ const errorCodes = {
     message: "Bearer token required",
   },
   EXPIRED_TOKEN: {
+    // second commit in day9_api_fixes
     code: "02",
     status: UNATHORIZED,
     message: "Expired bearer token",
